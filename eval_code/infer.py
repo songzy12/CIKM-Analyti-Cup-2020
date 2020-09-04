@@ -1,5 +1,6 @@
 import os
 import numpy as np
+import time
 
 from tqdm import tqdm
 
@@ -27,6 +28,7 @@ def infer(config,
     results = {}
     ik = 0
     for i in tqdm(range(len(file_name_list))):
+        t0 = time.time()
         file_name = file_name_list[i]
         if os.path.splitext(file_name)[1] not in [
                 '.jpg', '.png', '.bmp', '.gif'
@@ -58,7 +60,13 @@ def infer(config,
             bb_score = 1 - min(
                 result_above_confidence_num_c,
                 result_above_confidence_num_p) / result_above_confidence_num_c
+        t1 = time.time()
         results[file_name] = bb_score
+
+        if True:
+            print('-----------------------------------')  
+            print('           total : %f' % (t1 - t0))
+            print('-----------------------------------')
     import json
     with open(os.path.join(output_dir, json_name), 'w') as f_obj:
         json.dump(results, f_obj)

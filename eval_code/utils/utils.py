@@ -449,7 +449,7 @@ def do_detect(model, img, conf_thresh, nms_thresh, use_cuda=1):
         boxes = nms(boxes, nms_thresh)
     t4 = time.time()
 
-    if False:
+    if True:
         print('-----------------------------------')
         print(' image to tensor : %f' % (t1 - t0))
         print('  tensor to cuda : %f' % (t2 - t1))
