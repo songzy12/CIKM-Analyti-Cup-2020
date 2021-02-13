@@ -1,1 +1,8 @@
-IJCAI-19 Alibaba Adversarial AI Challenge: https://tianchi.aliyun.com/competition/entrance/231701/information
+- IJCAI-19 阿里巴巴人工智能对抗算法竞赛: https://tianchi.aliyun.com/competition/entrance/231701/information
+- 安全AI挑战者计划第一期 - 人脸识别对抗: https://tianchi.aliyun.com/competition/entrance/231745/information
+- 安全AI挑战者计划第二期 - ImageNet图像分类对抗攻击: https://tianchi.aliyun.com/competition/entrance/231761/information
+- 安全AI挑战者计划第三期 - 文本分类对抗攻击: https://tianchi.aliyun.com/competition/entrance/231762/information
+- CIKM2020 安全AI挑战者计划第四期：通用目标检测的对抗攻击: https://tianchi.aliyun.com/competition/entrance/531806/information
+- 安全AI挑战者计划第五期：伪造图像的对抗攻击: https://tianchi.aliyun.com/competition/entrance/531812/information
+- CVPR2021 安全AI挑战者计划第六期：ImageNet无限制对抗攻击: https://tianchi.aliyun.com/competition/entrance/531853/information
+- CVPR2021 安全AI挑战者计划第六期：防御模型的白盒对抗攻击: https://tianchi.aliyun.com/competition/entrance/531847/information
