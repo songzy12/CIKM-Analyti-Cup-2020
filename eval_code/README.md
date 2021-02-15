@@ -3,8 +3,6 @@
 - Download 1000 pictures needed for the competition on the official [website](https://tianchi.aliyun.com/competition/entrance/531806/information)
 - You can get data (`images.zip`)，and the definition, weight and evaluation code of two white box models (`eval_code.zip`). We use yolov4 and faster_rcnn as whitebox models.
 
-  
-
 ## Requirements
 
 This code is based on pytorch. Some basic dependencies are recorded in `requirements.txt`

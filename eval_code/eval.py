@@ -12,7 +12,7 @@ from infer import infer
 from tqdm import tqdm
 from skimage import measure
 
-use_cuda = False
+use_cuda = True
 
 
 def count_detection_score_fasterrcnn(img_file_dir, bb_json_name, output_dir):

@@ -9,7 +9,7 @@ sys.path.append('./mmdetection/')
 from mmdet import __version__
 from mmdet.apis import init_detector, inference_detector
 
-use_cuda = False
+use_cuda = True
 
 
 def infer(config,
